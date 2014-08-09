@@ -5,7 +5,7 @@
 Installation
 -------------
 
-`mrt add moment`
+`meteor add acreeger:moment`
 
 Usage
 -------------
