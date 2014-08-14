@@ -12,3 +12,10 @@ Package.on_use(function (api, where) {
   api.add_files('lib/moment/moment.js', where);
   api.add_files('export-moment.js', where);
 });
+
+if (Package.on_test) {
+  Package.on_test(function (api) {
+    api.use(['acreeger:moment', 'tinytest', 'test-helpers'], ['client', 'server']);
+    api.add_files('test-acreeger:moment.js', ['client', 'server']);
+  });
+}

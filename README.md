@@ -9,7 +9,7 @@ For Meteor v0.9.0 and above:
 `meteor add acreeger:moment`
 
 For Meteor versions below v0.9.0 using Meteorite/AtmosphereJS:
-`mrt add meteor`
+`mrt add moment`
 
 Usage
 -------------
