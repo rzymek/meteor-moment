@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "Moment.js, a JavaScript date library for parsing, validating, manipulating, and formatting dates, packaged for Meteor. See http://momentjs.com.",
+  summary: "Moment.js, a JavaScript date library for dates, packaged for Meteor. See http://momentjs.com.",
   version: "2.8.1",
   git: "https://github.com/acreeger/meteor-moment.git"
 });
