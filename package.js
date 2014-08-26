@@ -15,7 +15,11 @@ Package.on_use(function (api, where) {
 
 if (Package.on_test) {
   Package.on_test(function (api) {
-    api.use(['acreeger:moment', 'tinytest', 'test-helpers'], ['client', 'server']);
-    api.add_files('test-acreeger:moment.js', ['client', 'server']);
+    if (Package.onTest) {
+      api.use(['mrt:moment', 'tinytest', 'test-helpers'], ['client', 'server']);
+    } else {
+      api.use(['moment', 'tinytest', 'test-helpers'], ['client', 'server']);
+    }
+    api.add_files('test-mrt:moment.js', ['client', 'server']);
   });
 }

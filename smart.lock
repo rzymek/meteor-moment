@@ -1,0 +1,15 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "moment": {
+        "path": "."
+      }
+    },
+    "packages": {
+      "moment": {
+        "path": "."
+      }
+    }
+  }
+}
