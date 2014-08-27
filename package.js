@@ -16,7 +16,7 @@ Package.on_use(function (api, where) {
 if (Package.on_test) {
   Package.on_test(function (api) {
     if (Package.onTest) {
-      api.use(['mrt:moment', 'tinytest', 'test-helpers'], ['client', 'server']);
+      api.use(['mrt:moment@2.8.1', 'tinytest', 'test-helpers'], ['client', 'server']);
     } else {
       api.use(['moment', 'tinytest', 'test-helpers'], ['client', 'server']);
     }
