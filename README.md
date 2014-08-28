@@ -16,3 +16,17 @@ Usage
 Just like the [moment docs](http://momentjs.com/docs/) tell you:
 
 `var oneMomentPlease = moment();`
+
+Locales
+--------------
+To send all moment locales to the client, set the following environment variables:
+
+`METEOR_MOMENT_OPTS='{"clientLocales":"ALL"}'`
+
+### Limitations:
+
+* Locales are currently not supported on the server. This is due to the locales explicitly asking for the "window" object.
+* In the future, I'd like to load only select locales. However, for now, it must remain a dream. Or a future pull request from one of you lovely people. That would be nice.
+
+### Known Issues
+* There seems to be some kind of caching of packaged files going on. If you toggle loading of locale files and restaart the server, there are times when the locales will load when not requested, and vice versa.
