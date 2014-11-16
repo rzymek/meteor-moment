@@ -10,6 +10,8 @@ Package.on_use(function (api, where) {
     api.export('moment', where);
   }
   api.add_files('lib/moment/moment.js', where);
+  api.add_files('lib/moment/locale/en-gb.js', where);
+  api.add_files('lib/moment/locale/pl.js', where);
   api.add_files('export-moment.js', where);
 });
 
