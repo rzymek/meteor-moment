@@ -1,19 +1,16 @@
 Package.describe({
   name: 'rzymek:moment-pl',
   summary: "Moment.js, a JavaScript date library for dates, packaged for Meteor. See http://momentjs.com.",
-  version: "2.8.3",
+  version: "2.8.3_2",
   git: "https://github.com/rzymek/meteor-moment.git"
 });
 
-Package.on_use(function (api, where) {
-  where = where || ['client', 'server'];
-  if(api.export) {
-    api.export('moment', where);
-  }
-  api.add_files('lib/moment/moment.js', where);
-  api.add_files('lib/moment/locale/en-gb.js', where);
-  api.add_files('lib/moment/locale/pl.js', where);
-  api.add_files('export-moment.js', where);
+Package.onUse(function (api) {
+  api.export('moment');
+  api.addFiles('lib/moment/moment.js');
+  api.addFiles('lib/moment/locale/en-gb.js', 'client');
+  api.addFiles('lib/moment/locale/pl.js', 'client');
+  api.addFiles('export-moment.js');
 });
 
 if (Package.on_test) {
