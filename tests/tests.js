@@ -2,7 +2,7 @@ console.log(moment().toString());
 if (Meteor.isClient) {
     Template.hello.helpers({
         moment: function() {
-            return moment().format('LL');
+            return moment().locale('pl').format('LL');
         }
     });
 }
