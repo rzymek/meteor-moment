@@ -28,4 +28,4 @@ Usage
 -------------
 Just like the [moment docs](http://momentjs.com/docs/) tell you:
 
-`var oneMomentPlease = moment();`
+    var now = moment();
