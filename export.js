@@ -1,1 +1,0 @@
-moment = this.moment;
