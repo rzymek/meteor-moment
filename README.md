@@ -1,11 +1,8 @@
-# Moment.js for Meteor
+# Moment.js locales for Meteor
 
 [Moment.js](http://momentjs.com/), a JavaScript date library for parsing, validating, manipulating, and formatting dates, packaged for Meteor.
 
-Installation
--------------
-
-    meteor add rzymek:moment
+Thses packages use the offical `momentjs:moment` Meteor package.
 
 Locales:
 -------------
@@ -22,7 +19,7 @@ To add all locales use:
 
     meteor add rzymek:moment-locales
 
-Note that locale specific package implies the core 'rzymek:moment', so you don't need to add it yourself.
+Note that locale specific package implies the core 'momentjs:moment', so you don't need to add it yourself.
 
 Usage
 -------------
