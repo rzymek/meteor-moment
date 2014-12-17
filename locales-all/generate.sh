@@ -1,11 +1,11 @@
 #!/bin/bash
 set -e
 cd `dirname $0`
-version=`cat ../package.js |grep version|cut -d'"' -f2`
+version=2.8.4
 echo "
 Package.describe({
     name: 'rzymek:moment-locales',
-    summary: 'Moment.js all locales. Companion package for rzymek:moment',
+    summary: 'Moment.js all locales. Companion package for momentjs:moment',
     version: '$version',
     git: 'https://github.com/rzymek/meteor-moment.git'
 });
