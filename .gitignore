@@ -1,2 +1,5 @@
 .build*
 /nbproject/
+/locales/*/locale.js
+/locales/*/server.js
+/locales/*/client.js

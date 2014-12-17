@@ -1,7 +1,7 @@
 Package.describe({
     name: 'rzymek:moment',
     summary: "Moment.js, a JavaScript date library for dates, packaged for Meteor. See http://momentjs.com.",
-    version: "2.8.3_10",
+    version: "2.8.4",
     git: "https://github.com/rzymek/meteor-moment.git"
 });
 

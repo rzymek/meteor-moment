@@ -11,8 +11,8 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-    api.use('rzymek:moment@$version'); 
-    api.imply('rzymek:moment');
+    api.use('momentjs:moment'); 
+    api.imply('momentjs:moment');
 " > package.js
 for d in ../locales/*/;do
     locale=`basename $d`
