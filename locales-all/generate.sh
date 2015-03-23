@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 cd `dirname $0`
-version=2.8.4
+version=2.9.0
 echo "
 Package.describe({
     name: 'rzymek:moment-locales',
