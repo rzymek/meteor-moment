@@ -1,6 +1,6 @@
 Package.describe({
-    name: 'rzymek:moment-locale-ka',
-    summary: "Moment.js ka locale. Companion package for rzymek:moment",
+    name: 'rzymek:moment-locale-ar-tn',
+    summary: "Moment.js ar-tn locale. Companion package for rzymek:moment",
     version: "2.9.0",
     documentation: '../../README.md',
     git: "https://github.com/rzymek/meteor-moment.git"

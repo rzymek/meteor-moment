@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 cd `dirname $0`
-version=`cat ../package.js |grep version|cut -d'"' -f2`
+version=`cat package-template.js |grep version|cut -d'"' -f2`
 for f in ../moment/locale/*.js;do
     echo $locale...
     locale=`basename $f .js`

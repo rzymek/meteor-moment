@@ -3,6 +3,7 @@ Package.describe({
     name: 'rzymek:moment-locales',
     summary: 'Moment.js all locales. Companion package for momentjs:moment',
     version: '2.9.0',
+    documentation: '../README.md',
     git: 'https://github.com/rzymek/meteor-moment.git'
 });
 
