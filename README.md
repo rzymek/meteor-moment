@@ -2,7 +2,7 @@
 
 [Moment.js](http://momentjs.com/), a JavaScript date library for parsing, validating, manipulating, and formatting dates, packaged for Meteor.
 
-Thses packages use the offical `momentjs:moment` Meteor package.
+These packages use the offical `momentjs:moment` Meteor package.
 
 Locales:
 -------------
